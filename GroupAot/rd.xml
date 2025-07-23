@@ -1,0 +1,8 @@
+<Directives>
+    <Application>
+        <Assembly Name="GroupAot" Dynamic="Required All"/>
+        <Assembly Name="Model" Dynamic="Required All"/>
+        <!--        <Assembly Name="FreeSql" Dynamic="Required All"/>-->
+        <!--        <Assembly Name="FreeSql.Provider.SqliteCore" Dynamic="Required All"/>-->
+    </Application>
+</Directives>
