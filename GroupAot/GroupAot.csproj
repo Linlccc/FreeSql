@@ -5,15 +5,20 @@
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+
         <PublishAot>true</PublishAot>
         <InvariantGlobalization>true</InvariantGlobalization>
+        <!-- aot 时禁用修剪分析警告 -->
+        <SuppressTrimAnalysisWarnings>true</SuppressTrimAnalysisWarnings>
+        <NoWarn>$(NoWarn);IL3050</NoWarn>
     </PropertyGroup>
     <ItemGroup>
         <RdXmlFile Include="rd.xml"/>
     </ItemGroup>
 
+    <Import Project="..\Model.Shared\Model.Shared.projitems" Label="Shared"/>
     <ItemGroup>
-        <ProjectReference Include="..\Model\Model.csproj" />
+        <!--<ProjectReference Include="..\..\..\FreeSql\FreeSql.csproj"/>-->
         
         <ProjectReference Include="..\..\..\Providers\FreeSql.Provider.SqliteCore\FreeSql.Provider.SqliteCore.csproj" />
         <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="2.1.11"/>
