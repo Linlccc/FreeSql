@@ -1,6 +1,8 @@
 ﻿<Solution>
-  <Project Path="..\..\FreeSql\FreeSql.csproj" Type="Classic C#" />
-  <Project Path="..\..\Providers\FreeSql.Provider.SqliteCore\FreeSql.Provider.SqliteCore.csproj" Type="Classic C#" />
+  <Folder Name="/FreeSql/">
+    <Project Path="..\..\FreeSql\FreeSql.csproj" Type="Classic C#" />
+    <Project Path="..\..\Providers\FreeSql.Provider.SqliteCore\FreeSql.Provider.SqliteCore.csproj" Type="Classic C#" />
+  </Folder>
   <Project Path="GroupAot\GroupAot.csproj" Type="Classic C#" />
   <Project Path="Model.Shared\Model.Shared.shproj" />
 </Solution>
