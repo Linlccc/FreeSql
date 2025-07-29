@@ -3,5 +3,4 @@
   <Project Path="..\..\Providers\FreeSql.Provider.SqliteCore\FreeSql.Provider.SqliteCore.csproj" Type="Classic C#" />
   <Project Path="GroupAot\GroupAot.csproj" Type="Classic C#" />
   <Project Path="Model.Shared\Model.Shared.shproj" />
-  <Project Path="Model\Model.csproj" Type="Classic C#" />
 </Solution>
